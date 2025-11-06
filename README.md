@@ -1,6 +1,6 @@
 
 cat << 'EOF' > README.md
-# SYSC4001_A2_P2 — IPC Assignment  
+# SYSC4001_A2_P2: IPC Assignment  
 Teammates: 101268686, 101311227  
 
 ## Files
@@ -17,7 +17,7 @@ Teammates: 101268686, 101311227
 
 ```bash
 make
-# OR build individually
+
 make p3_parent_wait p3_child
 make p4_parent_shm p4_child_shm
 make p5_parent_shm_sem p5_child_shm_sem
