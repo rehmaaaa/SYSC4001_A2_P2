@@ -1,0 +1,12 @@
+# build outputs
+*.o
+p3_parent_wait
+p3_child
+p4_parent_shm
+p4_child_shm
+p5_parent_shm_sem
+p5_child_shm_sem
+
+# OS/editor junk
+.DS_Store
+*.swp
