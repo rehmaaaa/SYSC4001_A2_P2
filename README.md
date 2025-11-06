@@ -11,15 +11,18 @@ Teammates: 101268686, 101311227
 
 ---
 ## Build Commands
-
 To compile everything:
 ```bash
 make
+
 make p3_parent_wait p3_child
 make p4_parent_shm p4_child_shm
 make p5_parent_shm_sem p5_child_shm_sem
-make clean
-./p3_parent_wait
-./p4_parent_shm 3
-./p5_parent_shm_sem 3
 
+make clean
+
+./p3_parent_wait
+
+./p4_parent_shm 3
+
+./p5_parent_shm_sem 3
